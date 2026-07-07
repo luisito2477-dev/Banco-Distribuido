@@ -1,0 +1,27 @@
+# --- carpetas de IDEs ---
+.idea/
+.vscode/
+*.iml
+
+# --- archivos de sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Java / Maven (Para todos los microservicios) ---
+**/target/
+**/*.class
+**/.mvn/
+**/mvnw
+**/mvnw.cmd
+
+# --- Python / FastAPI (Para el servicio de IA) ---
+**/__pycache__/
+**/*.pyc
+**/.venv/
+**/env/
+**/*.pkl
+
+# --- Frontend  ---
+**/node_modules/
+**/dist/
+**/.env.local
