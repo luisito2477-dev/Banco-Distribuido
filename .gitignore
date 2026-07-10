@@ -6,6 +6,8 @@
 # --- archivos de sistema ---
 .DS_Store
 Thumbs.db
+**/.env             
+**/.env.local
 
 # --- Java / Maven (Para todos los microservicios) ---
 **/target/
@@ -24,4 +26,3 @@ Thumbs.db
 # --- Frontend  ---
 **/node_modules/
 **/dist/
-**/.env.local
